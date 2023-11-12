@@ -16,10 +16,10 @@ public class Mesaj_Kutusu_Kontrol extends BaseDriver {
         hesapGiris.click();
 
         WebElement email=driver.findElement(By.id("life"));
-        email.sendKeys("falanfilan@gmail.com");
+        email.sendKeys("*****.com");
 
         WebElement sifreGir=driver.findElement(By.id("lifp"));
-        sifreGir.sendKeys("Deneme.123");
+        sifreGir.sendKeys("*****");
 
         WebElement girisYap=driver.findElement(By.id("lfb"));
         girisYap.click();

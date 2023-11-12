@@ -20,7 +20,7 @@ public class Register extends BaseDriver {
         email1.sendKeys("falancafilan123@gmail.com");
         MyFunc.Wait(1);
         WebElement email2 = driver.findElement(By.xpath("//input[@id='rnufe2']"));
-        email2.sendKeys("falancafilan123@gmail.com");
+        email2.sendKeys("*****@gmail.com");
         MyFunc.Wait(1);
         String email1Value = email1.getAttribute("value");
         String email2Value = email2.getAttribute("value");
@@ -28,10 +28,10 @@ public class Register extends BaseDriver {
         System.out.println("E-posta Adresleri Esit.");
         MyFunc.Wait(1);
         WebElement password1 = driver.findElement(By.xpath("//input[@id='rnufp1']"));
-        password1.sendKeys("Deneme.123");
+        password1.sendKeys("*****");
         MyFunc.Wait(1);
         WebElement password2 = driver.findElement(By.xpath("//input[@id='rnufp2']"));
-        password2.sendKeys("Deneme.123");
+        password2.sendKeys("******");
         MyFunc.Wait(1);
         String password1Value = password1.getAttribute("value");
         String password2Value = password2.getAttribute("value");

@@ -15,10 +15,10 @@ public class Login extends BaseDriver {
         loginNavigator.click();
         MyFunc.Wait(1);
         WebElement eMailField = driver.findElement(By.xpath("//input[@id='life']"));
-        eMailField.sendKeys("zaferCansiz1@gmail.com");
+        eMailField.sendKeys("******@gmail.com");
         MyFunc.Wait(1);
         WebElement passwordField = driver.findElement(By.xpath("//input[@id='lifp']"));
-        passwordField.sendKeys("StringSifre1");
+        passwordField.sendKeys("******");
         MyFunc.Wait(1);
         WebElement loginButton = driver.findElement(By.xpath("//input[@id='lfb']"));
         loginButton.click();

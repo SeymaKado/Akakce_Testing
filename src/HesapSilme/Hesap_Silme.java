@@ -18,9 +18,9 @@ public class Hesap_Silme extends BaseDriver {
         WebElement giris = driver.findElement(By.xpath("(//a[@rel='nofollow'][text()='Giriş Yap'])[1]"));
         giris.click();
         WebElement eposta = driver.findElement(By.id("life"));
-        eposta.sendKeys("falanfilan1@gmail.com");
+        eposta.sendKeys("******@gmail.com");
         WebElement sifre = driver.findElement(By.id("lifp"));
-        sifre.sendKeys("Deneme.123");
+        sifre.sendKeys("*****");
         WebElement girisYapButton = driver.findElement(By.id("lfb"));
         girisYapButton.click();
 
